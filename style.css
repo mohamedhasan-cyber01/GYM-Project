@@ -1,0 +1,30 @@
+body{
+    background-color: #232323;
+}
+h1{
+    color: #FF5521;
+    font-size: 20px;
+    text-align: Left;
+    font-family: sans-serif, monospace;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+     font-family: sans-serif, monospace;
+}
+nav{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+nav a{
+    color: #7e7c7b;
+    text-decoration: none;
+}
+hr{
+    border: 1px solid #FF5521;
+    margin-top: 10px;
+}
