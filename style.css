@@ -1,30 +1,94 @@
-body{
-    background-color: #232323;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-h1{
-    color: #FF5521;
-    font-size: 20px;
-    text-align: Left;
-    font-family: sans-serif, monospace;
-    
+
+body {
+    background-color: #1a1a1a; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-.navbar{
+
+
+.header {
+    background-color: #222222;
+    padding: 24px 40px;
+    border-bottom: 2px solid #e04a1d; 
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-     font-family: sans-serif, monospace;
+    justify-content: space-between;
+    align-items: center;
 }
-nav{
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    z-index: 1000;
+
+
+.logo {
+    color: #e04a1d; 
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
-nav a{
-    color: #7e7c7b;
+
+.nav {
+    display: flex;
+    gap: 24px; 
+}
+
+.nav-link {
+    color: #b3b3b3; 
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color 0.2s ease;
 }
-hr{
-    border: 1px solid #FF5521;
-    margin-top: 10px;
+
+.banner-container {
+    background-color: #141414;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    font-size: 2.8rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin: 0 0 24px 0;
+    text-transform: uppercase;
+}
+
+.banner-subtitle {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;
+    color: #cccccc;
+    font-weight: 300;
+    max-width: 800px;
+    margin: 0 0 35px 0;
+    letter-spacing: 0.5px;
+}
+
+.banner-btn {
+    font-family: 'Arial', sans-serif;
+    background-color: #ff5722;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 14px 36px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.banner-btn:active {
+    transform: scale(0.98);
 }
